@@ -9,16 +9,17 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod"
+    "postinstall": "ng build --aot -prod",
+    "heroku-postbuild": "ng build — prod"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^5.2.0",
     "@angular/cdk": "^5.1.1",
-    "@angular/cli": "1.6.7",
+    "@angular/cli": "x.x.x",
     "@angular/common": "^5.2.0",
     "@angular/compiler": "^5.2.0",
-    "@angular/compiler-cli": "^5.2.0",
+    "@angular/compiler-cli": "x.x.x",
     "@angular/core": "^5.2.0",
     "@angular/forms": "^5.2.0",
     "@angular/http": "^5.2.0",
@@ -28,16 +29,17 @@
     "@angular/router": "^5.2.0",
     "@types/pdfjs-dist": "^0.1.1",
     "core-js": "^2.4.1",
-    "express": "^4.16.2",
+    "express": "^4.17.1",
     "ng2-pdf-viewer": "^3.0.8",
+    "path": "^0.12.7",
     "pdfjs-dist": "^2.0.303",
     "rxjs": "^5.5.6",
     "typescript": "~2.5.3",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
-    "@angular/cli": "1.6.7",
-    "@angular/compiler-cli": "^5.2.0",
+    "@angular/cli": "x.x.x",
+    "@angular/compiler-cli": "x.x.x",
     "@angular/language-service": "^5.2.0",
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
@@ -54,10 +56,10 @@
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
-    "typescript": "~2.5.3"
+    "typescript": "x.x.x"
   },
   "engines": {
-    "node": "9.4.0",
-    "npm": "5.6.0"
+    "node": "x.x.x",
+    "npm": "x.x.x"
   }
 }
