@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('angular-pdf-forms App', () => {
+describe('PdfEditor App', () => {
   let page: AppPage;
 
   beforeEach(() => {
